@@ -37,7 +37,7 @@ int main()
             temp=node;
         }
     }
-    while (temp->next!=nullptr)
+    while (temp)
     {
         cout<<temp->data;
         temp=temp->next;
